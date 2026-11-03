@@ -1,0 +1,13 @@
+# Freddie Mac raw files stay off GitHub (size, and the dataset's terms of use)
+data/raw/*
+!data/raw/.gitkeep
+*.zip
+
+# DuckDB database and the self-test folder are rebuilt by scripts/run_sql.py
+*.duckdb
+*.duckdb.wal
+data/selftest/
+
+# Python and Jupyter clutter
+__pycache__/
+.ipynb_checkpoints/
